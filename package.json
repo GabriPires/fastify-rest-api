@@ -1,0 +1,20 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "tsx": "^3.12.5",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "fastify": "^4.14.1"
+  }
+}
